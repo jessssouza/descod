@@ -84,10 +84,63 @@ body {
     margin: 2px;
 }
 
-.nav-link:hover,
-.nav-link:focus,
-.end-link,
-.end-link:focus,
-.nav-link {
-    color: #ff206a;
+.drop-menu{
+    font-size: 22px;
 }
+
+.drop-menu span{
+    margin-left: 10px;
+}
+
+.end-link {
+    text-decoration: none;
+}
+
+.carousel-inner {
+    height: 250px;
+}
+
+.p {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+input {
+    margin: 10px;
+    
+}
+
+#logo {
+    width: 150px;
+    margin: 10px;
+}
+
+.carousel-item img {
+    width: auto;
+    margin: auto;
+    display: block;
+
+}
+
+body {
+    background-color: #fafafa;
+
+}
+
+.destaque,
+.rodape,
+.institucional {
+    padding: 30px;
+
+}
+
+.h5 {
+    color: #ff206a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+
+
+

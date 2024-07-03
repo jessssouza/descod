@@ -5,55 +5,82 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="aboutme.css">
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <link rel="shortcut icon" type="imagem/x-icon" href="imagens do projeto/favicon.ico"/>
+    <link rel="shortcut icon" type="imagem/x-icon" href="imagens do projeto/favicon.ico" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 
 <body class="color">
 
-    <header class="topo shadow-fluid">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="nav nav-underline">
-                        <a class="nav-link" href="index.html">Home</a>
-                        <a class="nav-link" href="products.html">Serviços</a>
-                        <a class="nav-link" href="aboutme.html">Quem sou</a>
-                        <a class="nav-link" href="contactforms.html">Contato</a>
-                    </nav>
+    <body>
+        <header class="topo shadow-fluid">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-2">
+                        <img id="logo" src="imagens do projeto/Logo3.png" class="rounded mx-auto d-block" alt="Logotipo">
+                    </div>
+                    <div class="col-10 centerdiv" style="display: block; align-content: center;">
+                        <!-- Ícone de pesquisa será ativado nos próximos meses -->
+                        <!-- <form class="d-flex" role="search">
+                            <input class="form-control" type="search" placeholder="Pesquisar" aria-label="Search">
+                            <button id="search-button" class="btn" type="submit">Pesquisar</button> -->
+    
+                        <div class="btn-group" style="float: right;">
+                            <i class="bi bi-menu-button-wide dropdown-toggle drop-menu" type="button" data-bs-toggle="dropdown"
+                                data-bs-auto-close="true" aria-expanded="false"><span>Menu</span>
+                            </i>
+    
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="index.html">Home</a></li>
+                                <li><a class="dropdown-item" href="products.html">Serviços</a></li>
+                                <li><a class="dropdown-item" href="aboutme.html">Sobre mim</a></li>
+                                <li><a class="dropdown-item" href="galery.html">Galeria</a></li>
+                                <li><a class="dropdown-item" href="contactforms.html">Contato</a></li>
+                            </ul>
+                        </div>
+                        <!--ICONE DE BOLSA DE COMPRA ESTÁ NO SITE POIS POSTERIORMENTE TERÁ LOJA DE PRODUTOS PARA COMPRA, ESTÁ ALINHADO PARA VER COMO FICARÁ NO LAYOUT DO SITE-->
+                        <!-- <i class="bi bi-bag-heart-fill"></i> -->
+                        <!-- </form> -->
+                    </div>
+                </div>
+        </header>
+        <section>
+            <p class="h4">Sobre mim</p>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 mb-4 mt-5">
+                        <img src="imagens do projeto/eu.jpeg" alt="Logotipo"
+                            style="width: 250px; float: left; margin: 30px" ;>
+                        <p class="p mt-2">Sou a Jessica, tenho 27 anos e moro em São Paulo - SP. Sou uma pessoa muito
+                            curiosa e adoro aprender coisas novas, estou sempre em busca de desenvovimento e
+                            conhecimento.
+                            Comecei minha paixão pelo no universo das unhas muito nova, amo desde cutilagem a nail
+                            design.
+                            <br>Atualmente estudo Gestão de negócios e inovação, e meu maior sonho é ter o meu próprio
+                            negócio, ou melhor, o meu studio de Nail Desing com foco em alongamento de unhas.
+                            </br>Desde que comecei os estudos para empreender, fui atrás de cursos profissionalizantes
+                            de
+                            unhas, e marketing e publicidade, para aprender técnicas que pode agregar no meu futuro
+                            negócio.
+                            Meu sonho é fazer do meu cantinho, aconchegante e que carregue a minha marca e
+                            personalidade,
+                            por isso penso em todos os detalhes com muito carinho. Quando tive a oportunidade de participar do
+                            curso Descodificadas, que apesar da dificuldade em aprender programação, eu quis desenvolver
+                            meu
+                            cantinho aqui na internet, eu mesma, montando o site e melhorando conforme o tempo. O curso
+                           Descodificadas está me trazendo oportunidades de entender melhor o mundo da tecnologia e como eu posso
+                            deixar o meu negócio mais digital.
+                        </p>
+                        <p class="p">Agradeço a oportunidade em participar do projeto, que me abriu portas para entrar
+                            no
+                            mundo da tecnologia e me dar mais inspiração para continuar aprendendo.</p>
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
-
-    <section>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 mb-5 mt-5">
-                    <img src="imagens do projeto/eu.jpeg" alt="Logotipo" style="width: 250px; float: left; margin: 30px"
-                        ;>
-                    <p class="h4 mt-3">Sobre mim</p>
-                    <p class="p mt-2">Sou a Jessica, tenho 27 anos e moro em São Paulo - SP. Sou uma pessoa muito
-                        curiosa e adoro aprender coisas novas, estou sempre em busca de desenvovimento e conhecimento.
-                        Comecei minha paixão pelo no universo das unhas muito nova, amo desde cutilagem a nail design.
-                        <br>Atualmente estudo Gestão de negócios e inovação, e meu maior sonho é ter o meu próprio
-                        negócio, ou melhor, o meu studio de Nail Desing com foco em alongamento de unhas.
-                        </br>Desde que comecei os estudos para empreender, fui atrás de cursos profissionalizantes de
-                        unhas, e marketing e publicidade, para aprender técnicas que pode agregar no meu futuro negócio.
-                        Meu sonho é fazer do meu cantinho, aconchegante e que carregue a minha marca e personalidade,
-                        por isso penso em todos os detalhes com muito carinho. Quando tive a oportunidade de fazer o
-                        curso Elas na Tech, que apesar da dificuldade em aprender programação, eu quis desenvolver meu
-                        cantinho aqui na internet, eu mesma, montando o site e melhorando conforme o tempo. O curso Elas
-                        na Tech me trouxe uma oportunidade de entender melhor o mundo da tecnologia e como eu posso
-                        deixar o meu negócio mais digital.
-                    </p>
-                    <p class="p">Agradeço a oportunidade em participar do projeto, que me abriu portas para entrar no
-                        mundo da tecnologia e me dar mais inspiração para continuar aprendendo.</p>
-                    </p>
-                </div>
             </div>
-        </div>
-        </div>
-    </section>
-</body>
-
-</html>
+        </section>
+    </body>
+    </html>

@@ -218,3 +218,11 @@ body {
   grid-row-start: 3;
   grid-row-end: 3;
 }
+
+.drop-menu{
+  font-size: 22px;
+}
+
+.drop-menu span{
+  margin-left: 10px;
+}
